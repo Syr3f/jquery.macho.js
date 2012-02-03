@@ -1,5 +1,5 @@
 /**
- *  Macho.jquery.js - jQuery plugin for Hogan.js
+ *  Macho.jquery.js - A jQuery plugin for Hogan.js
  *
  *  @author Seraf Dos Santos
  *  @copyright 2012 Seraf Dos Santos
