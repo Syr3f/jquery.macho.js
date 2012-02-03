@@ -32,6 +32,4 @@ Having:
 <div id="myTemplate">{{myKey}}</div>
 ````
 
->> Author: Seraf Dos Santos
->> MIT License
->> copyright (c) 2012 Seraf Dos Santos
+>> Author: Seraf Dos Santos <webmaster [at] cyb3r.ca> – MIT License – copyright (c) 2012 Seraf Dos Santos
