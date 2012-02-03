@@ -7,7 +7,7 @@ the selected DOM element.
 
 Here's a usage example:
 
-```
+```javascript
 var myData = {"myKey": "myValue"};
 
 $('#myTemplateId').Macho(myData)
@@ -15,7 +15,7 @@ $('#myTemplateId').Macho(myData)
 
 It is equivalent to:
 
-```
+```javascript
 var html = $('#myTemplateId').html();
 
 var template = _hogan.compile(html,);
