@@ -1,6 +1,6 @@
 # Macho.jquery.js
 
-**A jQuery Plugin for Hogan.js**
+**A jQuery plugin for Hogan.js**
 
 Basically, it's simply an extension to jQuery to apply Hoggan.js templating at 
 the selected DOM element.
@@ -16,10 +16,22 @@ $('#myTemplateId').Macho(myData)
 It is equivalent to:
 
 ```javascript
+var myData = {"myKey": "myValue"};
+
 var html = $('#myTemplateId').html();
 
-var template = _hogan.compile(html,);
-var output = template.render(data);
+var template = _hogan.compile(html);
+var output = template.render(myData);
 
 $('#myTemplateId').html(output);
 ````
+
+Having:
+
+```html
+<div id="myTemplate">{{myKey}}</div>
+````
+
+>> Author: Seraf Dos Santos
+>> MIT License
+>> copyright (c) 2012 Seraf Dos Santos
